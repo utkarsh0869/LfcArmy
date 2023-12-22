@@ -1,0 +1,27 @@
+.page-wrapper {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.outer-container {
+    display: flex;
+    border: 2px solid slateblue;
+}
+
+.inner-container {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.inner-container2 {
+    margin-left: auto; /* Aligns this container to the right */
+    display: flex;
+    align-items: flex-end; /* Align items inside this container to the right */
+    border: 1px solid red; /* Just for visualization */
+    padding: 5px; /* Adjust as needed */
+}
+
+.item1 {
+    margin-left: 50px;
+}
