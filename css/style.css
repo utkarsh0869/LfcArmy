@@ -1,16 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .page-wrapper {
     margin-left: 60px;
     margin-right: 60px;
+    background-color: #1F2937;
 }
 .outer-container {
     display: flex;
-    border: 2px solid slateblue;
+    /* border: 2px solid slateblue; */
 }
 
 .inner-container {
     display: flex;
     justify-content: flex-start;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 5px;
 }
 
@@ -18,10 +23,16 @@
     margin-left: auto; /* Aligns this container to the right */
     display: flex;
     align-items: flex-end; /* Align items inside this container to the right */
-    border: 1px solid red; /* Just for visualization */
+    /* border: 1px solid red;  */
     padding: 5px; /* Adjust as needed */
 }
 
+.item {
+    font-size: 24px;
+    color: #F9FAF8;
+}
 .item1 {
     margin-left: 50px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
